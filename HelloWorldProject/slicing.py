@@ -20,7 +20,12 @@ values = "".join(char if char not in separators else " " for char in numbers).sp
 print([int(val) for val in values])
 
 letters = "abcdefghijklmnopqrstuvwxyz"
-print(letters[::-1])
+print(letters[::-1])  # zyxwvutsrqponmlkjihgfedcba
+print(letters[25::-1])  # zyxwvutsrqponmlkjihgfedcba
+
+
+
+
 
 
 
