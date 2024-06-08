@@ -1,4 +1,5 @@
-numbers = "1,445;511:235 556,256;256"
+# numbers = "1,445;511:235 556,256;256"
+numbers = input("Please enter series of number: ")
 separators = ""
 
 for char in numbers:
